@@ -18,7 +18,7 @@
   - public void shuffle()
     - 洗牌時記得重置private ArrayList<Card> openCard; (5pt)
   - public Card getOneCard (boolean isOpened)
-    - 拿到一張牌，修改原有method，加入isOpened參數，決定發出去的牌是開著還是蓋起來的。 (5pt)
+    - 拿到一張牌，修改原有method，加入isOpened參數，決定發出去的牌是開著還是蓋起來的，若是開著的牌，加入openCard。 (5pt)
   - public ArrayList<Card> getOpenedCard()
     - 回傳此副牌中所有打開過的牌，意即openCard  (5pt)
     
